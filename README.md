@@ -3,7 +3,7 @@
 
 ## Content of the Hands-on
 
-In the hands-on we will study the impedance of the LHC unshielded bellows and their impact on the transverse beam dynamics if they were to be added to the LHC without shielding. The hands-on utilizes CST Studio for the Wakefield simulations `CAS_Bellow.cst` & `CAS_bellow_shield.cst`, in parallel with the following python notebooks:
+In the hands-on we will study the impedance of the LHC unshielded bellows and their impact on the transverse beam dynamics if they were to be added to the LHC without shielding. The hands-on utilizes CST Studio for the Wakefield simulations `CAS_Bellow.cst` & `CAS_bellow_shield.cst`, in parallel with the following python notebooks[^1]:
 
 #### 001_xwakes_tmci_hllhc.ipynb
 
@@ -25,7 +25,7 @@ This notebook extends the previous study by including the effect of 1700 unshiel
 - Repeating intensity scans and tracking.
 - Assessing the impact on TMCI threshold and instability mitigation.
 - Visualizing changes in intrabunch motion and discussing mitigation strategies (e.g., lowering the bellows impedance in CST, increasing chromaticity, using a transverse damper).
-  
+
 ## Installation guide
 
 To run this python notebook examples, we will need to install:
@@ -87,4 +87,5 @@ pip install matplotlib pandas h5py
 ```
 
 That's all! Enjoy playing with the notebook tutorials 😊🚀
-  
+
+[^1]: This notebooks are based on David's Amorim Gitlab repository: https://gitlab.cern.ch/damorim/tmci-xwakes/-/tree/master?ref_type=heads
