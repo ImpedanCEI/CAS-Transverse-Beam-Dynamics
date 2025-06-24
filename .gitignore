@@ -195,6 +195,5 @@ cython_debug/
 
 # Data files
 *.h5
-*.png
 *.pkl
 *old/*
